@@ -49,9 +49,8 @@ lake build Erdos945
 ### Axioms Used
 
 The theorem `Erdos945.erdos_945` depends on:
-- **No axioms** — the proof uses only `decide` for finite primality checks.
-
-No `sorry`/`sorryAx`/`admit`/custom axioms are used.
+- **Standard Mathlib axioms:** `propext`, `Classical.choice`, `Quot.sound`
+- **No** `sorry`/`sorryAx`/`admit`/custom axioms/`native_decide`
 
 ### Theorem Statement
 
